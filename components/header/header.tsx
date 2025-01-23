@@ -14,7 +14,7 @@ export const Header = () => {
 
   return (
     <header className="flex items-center justify-between p-4 mx-auto cursor-pointer sm:max-w-4xl md:max-w-6xl  ">
-      <h1 className="text-2xl sm:text-3xl font-bold" onClick={() => push("/")}><span className="font-extrabold text-2xl sm:text-3xl text-primary">Tulas</span>Personalizadas</h1>
+      <h1 className="text-2xl sm:text-3xl font-black text-primary" onClick={() => push("/")}>Tulas<span className="text-white font-medium">Personalizadas</span></h1>
       <section className="items-center justify-center hidden lg:flex ">
         <MenuList/>
       </section>

@@ -11,7 +11,7 @@ const dataFooter = [
   {
     id: 2,
     name: "Productos",
-    link: "/"
+    link: "/shop?page=1"
   },
   {
     id: 3,
@@ -31,8 +31,8 @@ export const Footer = () => {
       <section className="w-full max-w-2xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <p>
-            <span className="font-bold">
-              TulasPersonalizadas
+            <span className="font-black text-primary">
+              Tulas<span className="text-white font-medium">Personalizadas</span>
             </span> 
           </p>
 
